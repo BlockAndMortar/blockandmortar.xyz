@@ -1,0 +1,17 @@
+import { defineNuxtConfig } from 'nuxt'
+
+// https://v3.nuxtjs.org/api/configuration/nuxt.config
+export default defineNuxtConfig({
+  content: {},
+  css: ['@/assets/css/main.css'],
+  modules: ['@nuxt/content'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+  typescript: {
+    shim: false,
+  },
+})

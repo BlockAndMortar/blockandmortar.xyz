@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: 'glossary'
+    label: 'Glossary'
+    folder: 'content/glossary'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Term', name: 'title', widget: 'string' }
+      - { label: 'Definition', name: 'body', widget: 'markdown' }
