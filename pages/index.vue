@@ -1,5 +1,5 @@
 <template>
-  <div>
-    Home page
-  </div>
+  <NewsletterForm />
+  <FeaturedContent />
+  <Team />
 </template>
