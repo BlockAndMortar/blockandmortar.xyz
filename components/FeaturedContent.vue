@@ -18,6 +18,9 @@
                 <p class="text-xl font-semibold text-gray-900">
                   {{ post.title }}
                 </p>
+                <p class="mt-0.5 text-xs text-gray-400 font-medium uppercase" v-if="post.comingSoon">
+                  Coming Soon
+                </p>
                 <p class="mt-3 text-base text-gray-500">
                   {{ post.preview }}
                 </p>
