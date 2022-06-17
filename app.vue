@@ -11,7 +11,7 @@
 
   const title = 'Block & Mortar'
   const description = 'We bring you the top stories on where business meets web3: blockchain, cryptocurrencies, NFTs, and metaverse.'
-  const url = 'https://clever-semifreddo-a91103.netlify.app'
+  const url = 'https://www.blockandmortar.xyz'
 
   useHead({
     titleTemplate: (titleChunk) => {
