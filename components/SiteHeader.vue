@@ -25,6 +25,7 @@
 
 <script setup>
   const navigation = [
-    { name: 'Contact Us', href: '/contact' },
+    { name: 'Newsletter', href: '/newsletter' },
+    { name: 'Contact', href: '/contact' },
   ]
 </script>

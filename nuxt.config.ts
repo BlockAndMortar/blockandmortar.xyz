@@ -4,7 +4,19 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   content: {},
   css: ['@/assets/css/main.css'],
-  modules: ['@nuxt/content'],
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/dayjs',
+  ],
+  dayjs: {
+    locales: ['en'],
+    defaultLocale: 'en',
+    defaultTimeZone: 'America/Chicago',
+    plugins: [
+      'utc',
+      'timezone',
+    ]
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
