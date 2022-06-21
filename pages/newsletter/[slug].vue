@@ -43,7 +43,7 @@
 
   function slugFor(section) {
     const fileName = section._path.split('/').pop()
-    return fileName.split('.').pop();
+    return fileName.split('.').pop()
   }
 
   useHead({ title })
