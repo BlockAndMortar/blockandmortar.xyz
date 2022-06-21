@@ -3,7 +3,7 @@
     <h1 class="mb-4 text-xl font-bold lg:text-4xl">{{ title }}</h1>
 
     <ul class="divide-y">
-      <li class="py-4" v-for="doc in data.reverse()" :key="doc.__path">
+      <li class="py-4" v-for="doc in data" :key="doc.__path">
         <div class="text-gray-500 text-sm">
           {{ $dayjs(doc.published_at).format('MMMM D, YYYY') }}
         </div>
@@ -20,6 +20,7 @@
   const { data } = await useAsyncData('newsletter', () => {
     return queryContent('/newsletter')
         .where({ _partial: false })
+        .sort({ published_at: -1 })
         .find()
   })
 
