@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-4 pb-14 bg-gray-900 lg:pt-8 lg:overflow-hidden">
+  <div id="newsletter-signup" class="pt-4 pb-14 bg-gray-900 lg:pt-8 lg:overflow-hidden">
     <div class="mx-auto max-w-7xl px-4 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">

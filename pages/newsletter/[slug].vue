@@ -30,7 +30,7 @@
 
     <p class="mt-12 pt-4 italic border-t">
       Reading this online? 
-      Subscribers get this in their inbox on Tuesdays. 
+      <a href="/#newsletter-signup">Subscribers</a> get this in their inbox on Tuesdays. 
     </p>
   </article>
 </template>
