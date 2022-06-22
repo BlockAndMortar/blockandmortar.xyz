@@ -4,7 +4,7 @@
       <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Our services</p>
         <p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">
-          We're here to help you in many ways.
+          Need more information on using NFTs in your business? Working through your metaverse strategy? We're here to help.
         </p>
       </div>
       <div class="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
@@ -43,21 +43,21 @@
       id: 1,
       title: 'Weekly Newsletter',
       imageUrl: newsletterImg,
-      preview: 'We keep up with the latest news, so you don’t have to. Subscribe to our weekly newsletter and receive bite-sized commentary on current web3 affairs.',
+      preview: 'Do you want to keep up with web3, without all the noise? Subscribe to our newsletter! Every week, we\'ll send our analysis of what\'s happening.',
     },
     {
       id: 2,
       title: 'Workshops',
       comingSoon: true,
       imageUrl: workshopsImg,
-      preview: 'Want to bring the whole team up to speed on core concepts? Schedule a private workshop (virtual or in-person), tailored to your business’ needs.',
+      preview: 'Bring your executive team up to speed on core concepts, and uncover web3 use cases for your business.  Our private workshops are available worldwide.',
     },
     {
       id: 3,
       title: 'Consulting',
       comingSoon: true,
       imageUrl: consultingImg,
-      preview: 'For companies looking to explore how their business can participate in web3. Block & Mortar will work alongside you to identify key business goals and implementation details.',
+      preview: 'For companies that need in-depth guidance on putting web3 to use. Block & Mortar will work alongside you to identify key business goals, map out implementation details, and avoid common pitfalls.',
     },
   ]
 </script>
