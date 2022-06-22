@@ -5,7 +5,7 @@
     <ul class="divide-y">
       <li class="py-4" v-for="doc in data" :key="doc.__path">
         <div class="text-gray-500 text-sm">
-          {{ $dayjs(doc.published_at).format('MMMM D, YYYY') }}
+          {{ $dayjs(doc.published_at).utc().format('MMMM D, YYYY') }}
         </div>
         <NuxtLink class="text-2xl font-bold hover:underline" :to="doc._path">
           {{ doc.title }}

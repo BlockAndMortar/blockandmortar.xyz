@@ -7,7 +7,7 @@
     </div>
 
     <div class="mt-6 mb-2">
-      <div class="text-gray-500 text">{{ $dayjs(published_at).format('MMMM D, YYYY') }}</div>
+      <div class="text-gray-500 text">{{ $dayjs(published_at).utc().format('MMMM D, YYYY') }}</div>
       <h1 class="text-2xl font-bold lg:text-4xl">{{ title }}</h1>
     </div>
 
