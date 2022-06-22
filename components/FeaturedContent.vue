@@ -43,7 +43,7 @@
       id: 1,
       title: 'Weekly Newsletter',
       imageUrl: newsletterImg,
-      preview: 'Do you want to keep up with web3, without all the noise? Subscribe to our newsletter! Every week, we\'ll send our analysis of what\'s happening.',
+      preview: 'Do you want to keep up with web3, without all the noise? Subscribe to our newsletter! Every week, we’ll send our analysis of what’s happening.',
     },
     {
       id: 2,
