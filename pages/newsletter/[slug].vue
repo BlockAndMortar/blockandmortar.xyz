@@ -20,6 +20,10 @@
       <a href="https://qethanm.cc/" target="_blank">Q McCallum</a>.
     </p>
 
+    <section v-if="page.description">
+      <MarkdownRenderer :value="page" />
+    </section>
+
     <section :id="slugFor(section)" class="pt-4 first:pt-2" v-for="section in sections" :key="section._path">
       <h2 class="mb-4 text-xl font-bold lg:text-2xl">
         <a :href="'#' + slugFor(section)">{{ section.title }}</a>
