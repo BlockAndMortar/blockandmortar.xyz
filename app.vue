@@ -28,7 +28,7 @@
       { property: 'og:url', content: url },
 
       // Twitter
-      { name: 'twitter:card', content: 'twitter:card' },
+      { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@BlockAndMortar_' },
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
