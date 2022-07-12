@@ -13,7 +13,7 @@
 
     <p class="pt-4 italic">
       Welcome to the Block & Mortar newsletter! 
-      Every week, we bring you the top stories on where business meets web3: blockchain, cryptocurrencies, NFTs, and metaverse.
+      Every week, we bring you the top stories and our analysis on where business meets web3: blockchain, cryptocurrencies, NFTs, and metaverse.
       Brought to you by
       <a href="https://www.robbin.co/" target="_blank">Scott Robbin</a>
       and
