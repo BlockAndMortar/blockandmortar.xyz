@@ -12,7 +12,7 @@
       <tbody class="divide-y divide-gray-200 bg-white">
         <ContentList path="/glossary" v-slot="{ list }">
           <tr v-for="doc in list" :key="doc._path">
-            <td class="py-4 pl-4 pr-3 font-medium text-gray-900 sm:pl-6">
+            <td class="py-4 pl-4 pr-3 font-medium text-gray-900 whitespace-nowrap sm:pl-6">
               <NuxtLink class="font-bold hover:underline" :to="doc._path">
                 {{ doc.title }}
               </NuxtLink>
