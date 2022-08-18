@@ -12,6 +12,10 @@
         </NuxtLink>
       </li>
     </ul>
+
+    <div class="pt-6 pt-4 italic border-t">
+      <NewsletterFooter />
+    </div>
   </div>
 </template>
 

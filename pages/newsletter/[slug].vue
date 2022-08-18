@@ -32,10 +32,9 @@
       <MarkdownRenderer :value="section" />
     </section>
 
-    <p class="mt-12 pt-4 italic border-t">
-      Reading this online? 
-      <a href="/#newsletter-signup">Subscribers</a> get this in their inbox on Tuesdays. 
-    </p>
+    <div class="mt-12 pt-4 italic border-t">
+      <NewsletterFooter />
+    </div>
   </article>
 </template>
 
