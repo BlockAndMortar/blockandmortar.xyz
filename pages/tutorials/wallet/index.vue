@@ -73,7 +73,6 @@
   const loaded = ref(false);
   const metaMaskInstalled = ref(false);
   const selectedAccount = ref(null);
-  const signedMessage = ref(null);
   const didSignMessage = ref(false);
   const currentStep = ref(0);
 
@@ -111,12 +110,15 @@
   }
 
   onMounted(async () => {
-    metaMaskInstalled.value = typeof window.ethereum !== 'undefined';
+    try {
+      metaMaskInstalled.value = typeof window.ethereum !== 'undefined';
     
-    const accounts = await window.ethereum.request({ method: "eth_accounts" });
-    selectedAccount.value = accounts[0];
+      const accounts = await window.ethereum.request({ method: "eth_accounts" });
+      selectedAccount.value = accounts[0];
+    } finally {
+      loaded.value = true;
+    }
 
-    loaded.value = true;
   });
 </script>
 
