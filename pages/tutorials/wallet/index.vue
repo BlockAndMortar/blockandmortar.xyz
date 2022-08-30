@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-4xl mx-auto p-5" v-show="loaded">
     <header>
-      <div class="uppercase font-medium text-sm">Tutorials {{ currentStep }}</div>
+      <div class="uppercase font-medium text-sm">Tutorials</div>
       <h1 class="text-4xl font-bold">Wallet usage and safety</h1>
     </header>
 
