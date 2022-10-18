@@ -26,7 +26,7 @@
 
     <section :id="slugFor(section)" class="pt-4 first:pt-2" v-for="section in sections" :key="section._path">
       <h2 class="mb-4 text-xl font-bold lg:text-2xl">
-        <a :href="'#' + slugFor(section)">{{ section.title }}</a>
+        <a :href="'#' + slugFor(section)" v-html="section.title"></a>
       </h2>
 
       <MarkdownRenderer :value="section" />
