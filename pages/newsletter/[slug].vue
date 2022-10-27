@@ -20,6 +20,8 @@
       <a href="https://qethanm.cc/" target="_blank">Q McCallum</a>.
     </p>
 
+    <p>(Reading online? <a href="/#newsletter-signup">Subscribe</a> to get this in your inbox on Tuesdays.)</p>
+
     <section v-if="page.description">
       <MarkdownRenderer :value="page" />
     </section>
