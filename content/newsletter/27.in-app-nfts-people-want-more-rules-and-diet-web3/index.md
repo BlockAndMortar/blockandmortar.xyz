@@ -1,5 +1,5 @@
 ---
-title: In-App NFTs, people want more rules, and diet web3
+title: "#27 - In-App NFTs, people want more rules, and diet web3"
 published_at: 2022-11-01
 ---
 There was a lot of news this past week about tech companies' disappointing earnings reports: Amazon, Google, and Microsoft all had to explain why their numbers weren't up to snuff, and the stock market reacted accordingly.

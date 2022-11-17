@@ -1,5 +1,5 @@
 ---
-title: A very odd return to Things Go Wrong™, ideal virtual homes, and a podcast recommendation
+title: "#25 - A very odd return to Things Go Wrong™, ideal virtual homes, and a podcast recommendation"
 published_at: 2022-10-18
 ---
 Just when you thought it was gone … Things Go Wrong™ is back.  We thought this segment would be a one-off when it first ran [in newsletter #2](https://www.blockandmortar.xyz/newsletter/crypto-bahamas-otherside-fallout-and-a-little-crime-for-good-measure#things-go-wrong). But a week later there was [the big TerraUSD/Lunda fallout](https://www.blockandmortar.xyz/newsletter/what-the-hell-just-happened#things-go-wrong-what-happened-with-terrausd-and-luna-edition), followed by a string of other Crazy Things Happening In DeFi. (Because it was _always_ DeFi. Metaverse news has been relatively free of that kind of scandal.) 

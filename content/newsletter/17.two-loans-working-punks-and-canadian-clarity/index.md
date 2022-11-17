@@ -1,4 +1,4 @@
 ---
-title: "Two loans, working punks, and Canadian clarity"
+title: "#17 - Two loans, working punks, and Canadian clarity"
 published_at: 2022-08-23
 ---

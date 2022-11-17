@@ -1,4 +1,4 @@
 ---
-title: Supplying tools for the gold rush, and “the” metaverse
+title: "#7 - Supplying tools for the gold rush, and “the” metaverse"
 published_at: 2022-06-14
 ---
