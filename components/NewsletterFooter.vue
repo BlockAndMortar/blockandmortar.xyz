@@ -6,7 +6,7 @@
     </p>
 
     <p>
-      Note: We’d like to thank Shane Glynn for reviewing early newsletter drafts. Any mistakes that remain are ours.
+      Note: Many thanks to Shane Glynn for reviewing early newsletter drafts. Any mistakes that remain are mine.
     </p>
   </div>
 </template>

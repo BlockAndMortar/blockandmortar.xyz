@@ -1,6 +1,5 @@
 <template>
   <NewsletterForm />
-  <Team />
 </template>
 
 <script setup>

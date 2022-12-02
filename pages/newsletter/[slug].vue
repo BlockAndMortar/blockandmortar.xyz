@@ -13,14 +13,12 @@
 
     <p class="pt-4 italic">
       Welcome to the Block & Mortar newsletter! 
-      Every week, we bring you the top stories and our analysis on where business meets web3: blockchain, cryptocurrencies, NFTs, and metaverse.
+      This is where I share the top stories and my analysis on where business meets web3: blockchain, cryptocurrencies, NFTs, and metaverse.
       Brought to you by
-      <a href="https://www.robbin.co/" target="_blank">Scott Robbin</a>
-      and
       <a href="https://qethanm.cc/" target="_blank">Q McCallum</a>.
     </p>
 
-    <p>(Reading online? <a href="/#newsletter-signup">Subscribe</a> to get this in your inbox on Tuesdays.)</p>
+    <p>(Reading online? <a href="/#newsletter-signup">Subscribe</a> to get this in your inbox on Tuesdays.  This website updates later in the week.)</p>
 
     <section v-if="page.description">
       <MarkdownRenderer :value="page" />

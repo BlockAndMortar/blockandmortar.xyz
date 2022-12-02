@@ -5,11 +5,11 @@
         <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
           <div class="lg:py-24">
             <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-              <span class="block">Subscribe to our</span>
+              <span class="block">Subscribe to the</span>
               <span class="pb-3 block text-cyan-200 sm:pb-5">Weekly Newsletter</span>
             </h1>
             <p class="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-              We bring you the top stories on where business meets web3: blockchain, cryptocurrencies, NFTs, and metaverse. 
+              You'll get the top stories on where business meets web3: blockchain, cryptocurrencies, NFTs, and metaverse. 
             </p>
             <div class="mt-10 sm:mt-12">
               <form
