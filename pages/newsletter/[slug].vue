@@ -18,7 +18,9 @@
       <a href="https://qethanm.cc/" target="_blank">Q McCallum</a>.
     </p>
 
-    <p>(Reading online? <a href="/#newsletter-signup">Subscribe</a> to get this in your inbox on Tuesdays.  This website updates later in the week.)</p>
+    <p class="pt-4 italic">(Reading online? <a href="/#newsletter-signup">Subscribe</a> to get this in your inbox on Tuesdays.  This website updates later in the week.)</p>
+
+	<hr/>
 
     <section v-if="page.description">
       <MarkdownRenderer :value="page" />
